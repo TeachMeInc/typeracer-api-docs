@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TypeRacer API",
   description: "TypeRacer API Documentation",
-  outDir: "../dist",
+  outDir: "../docs",
   themeConfig: {
     sidebar: [
       {
