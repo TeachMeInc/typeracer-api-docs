@@ -70,7 +70,7 @@ export default defineConfig({
 
     footer: {
       message: 'Shockwave',
-      copyright: 'Copyright 2023 Shockwave, Inc.'
+      copyright: 'Copyright 2025 Shockwave, Inc.'
     }
   }
 })

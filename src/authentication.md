@@ -8,7 +8,7 @@ In order to generate an API Key you must first be a premium TypeRacer subscriber
 
 Navigate to the "Manage Your API Keys" page from the bottom of the "Edit Profile" page (or follow [this link](https://data.typeracer.com/pit/api_keys)).
 
-From there you can create and manage your API Keys
+From there you can create and manage your API Keys.
 
 ### Authenticating with the API
 
