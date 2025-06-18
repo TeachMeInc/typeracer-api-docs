@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a,ae as o}from"./chunks/framework.Dgg8-8ov.js";const p=JSON.parse('{"title":"Errors","description":"","frontmatter":{},"headers":[],"relativePath":"errors.md","filePath":"errors.md"}'),d={name:"errors.md"};function s(i,t,n,h,l,c){return a(),r("div",null,t[0]||(t[0]=[o("",4)]))}const f=e(d,[["render",s]]);export{p as __pageData,f as default};
