@@ -2,7 +2,7 @@
   "name": "typeracer-api-docs",
   "scripts": {
     "docs:dev": "vitepress dev src",
-    "docs:build": "vitepress build src",
+    "docs:build": "vitepress build src && cp src/CNAME dist/CNAME",
     "docs:preview": "vitepress preview src"
   },
   "devDependencies": {
