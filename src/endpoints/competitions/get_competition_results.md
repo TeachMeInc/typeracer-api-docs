@@ -4,7 +4,7 @@ Get the RacerStats for a given competition date and period
 
 ### URL
 
-`GET /api/v1/competitions`
+`GET /v1/competitions/results`
 
 ### Parameters
 

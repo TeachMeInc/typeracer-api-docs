@@ -4,7 +4,7 @@ Get the Text for the given text_id
 
 ### URL
 
-`GET /api/v1/text/<text_id>`
+`GET /v1/texts/<text_id>`
 
 ### Parameters
 

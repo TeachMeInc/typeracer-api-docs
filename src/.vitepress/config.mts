@@ -10,6 +10,7 @@ export default defineConfig({
       {
         text: 'Documentation',
         items: [
+          { text: 'Getting Started', link: '/getting_started' },
           { text: 'Authentication', link: '/authentication' },
           { text: 'Errors', link: '/errors' },
           {
@@ -34,7 +35,7 @@ export default defineConfig({
               {
                 text: 'Competitions',
                 items: [
-                  { text: 'Get Competition Results', link: '/endpoints/competitions/get_competition_results' },
+                  // { text: 'Get Competition Results', link: '/endpoints/competitions/get_competition_results' },
                   { text: 'Get Current Competition Dates', link: '/endpoints/competitions/get_current_competition_dates' },
                 ]
               },
@@ -59,7 +60,7 @@ export default defineConfig({
                 items: [
                   { text: 'Get Text', link: '/endpoints/texts/get_text' },
                   { text: 'Get Race Results For Text', link: '/endpoints/texts/get_text_race_results' },
-                  { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
+                  // { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
                 ]
               }
             ]

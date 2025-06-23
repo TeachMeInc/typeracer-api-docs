@@ -4,7 +4,7 @@ Get the Racer for the given username
 
 ### URL
 
-`GET /api/v1/racers/<username>`
+`GET /v1/racers/<username>`
 
 ### Parameters
 

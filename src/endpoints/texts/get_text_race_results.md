@@ -4,7 +4,7 @@ Get the RaceResults for the Text with the given text_id
 
 ### URL
 
-`GET /api/v1/text/<text_id>/races`
+`GET /v1/texts/<text_id>/races`
 
 ### Parameters
 

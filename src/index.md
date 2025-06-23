@@ -8,6 +8,6 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /authentication
+      link: /getting_started
 ---
 

@@ -4,7 +4,7 @@ Get the competition award counts for the Racer with the given username
 
 ### URL
 
-`GET /api/v1/racers/<username>/awards`
+`GET /v1/racers/<username>/awards`
 
 ### Parameters
 

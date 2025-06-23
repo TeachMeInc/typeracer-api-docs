@@ -4,7 +4,7 @@ Get the start and end date and times of the currently active competitions
 
 ### URL
 
-`GET /api/v1/competitions/current`
+`GET /v1/competitions`
 
 ### Parameters
 

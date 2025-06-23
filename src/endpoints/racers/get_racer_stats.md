@@ -1,10 +1,10 @@
-# Get Racer Race Results
+# Get Racer Stats
 
 Get the RacerStats for the Racer with the given username
 
 ### URL
 
-`GET /api/v1/racers/<username>/stats`
+`GET /v1/racers/<username>/stats`
 
 ### Parameters
 

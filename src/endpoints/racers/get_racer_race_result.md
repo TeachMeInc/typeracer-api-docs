@@ -4,7 +4,7 @@ Get the RaceResult for the Race for the given username and race_number
 
 ### URL
 
-`GET /api/v1/racers/<username>/races/<race_number>`
+`GET /v1/racers/<username>/races/<race_number>`
 
 ### Parameters
 
