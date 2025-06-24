@@ -2,6 +2,8 @@
 
 Get the RaceResults for the Racer with the given username
 
+NOTE: this endpoint will only return RaceResults from the last year
+
 ### URL
 
 `GET /v1/racers/<username>/races`

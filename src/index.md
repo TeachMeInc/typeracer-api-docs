@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "TypeRacer API"
+  name: "TypeRacer API (BETA)"
   tagline: "Welcome to the TypeRacer API Docs"
   actions:
     - theme: brand

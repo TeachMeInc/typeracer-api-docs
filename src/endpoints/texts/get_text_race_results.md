@@ -2,6 +2,8 @@
 
 Get the RaceResults for the Text with the given text_id
 
+NOTE: this endpoint will only return RaceResults from the last year
+
 ### URL
 
 `GET /v1/texts/<text_id>/races`

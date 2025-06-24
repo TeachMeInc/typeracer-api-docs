@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TypeRacer API",
+  title: "TypeRacer API (BETA)",
   description: "TypeRacer API Documentation",
   outDir: "../docs",
   themeConfig: {
