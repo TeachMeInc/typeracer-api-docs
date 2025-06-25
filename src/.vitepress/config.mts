@@ -52,7 +52,8 @@ export default defineConfig({
               {
                 text: 'Races',
                 items: [
-                  { text: 'Get Race Results', link: '/endpoints/races/get_race_results' },
+                  { text: 'Get Latest Race Results', link: '/endpoints/races/get_race_results' },
+                  { text: 'Get Race Results For Race', link: '/endpoints/races/get_race_race_results' },
                 ]
               },
               {
