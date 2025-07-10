@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "TypeRacer API (BETA)",
   description: "TypeRacer API Documentation",
@@ -12,6 +11,7 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/getting_started' },
           { text: 'Authentication', link: '/authentication' },
+          { text: 'Historical Data', link: '/historical_data' },
           { text: 'Errors', link: '/errors' },
           {
             text: 'Types',
@@ -28,42 +28,41 @@ export default defineConfig({
               { text: 'RaceResult', link: '/entities/RaceResult' },
               { text: 'Text', link: '/entities/Text' },
             ]
+          }
+        ]
+      },
+      {
+        text: 'Endpoints',
+        items: [
+          {
+            text: 'Competitions',
+            items: [
+              { text: 'Get Current Competition Dates', link: '/endpoints/competitions/get_current_competition_dates' },
+            ]
           },
           {
-            text: 'Endpoints',
+            text: 'Racers',
             items: [
-              {
-                text: 'Competitions',
-                items: [
-                  // { text: 'Get Competition Results', link: '/endpoints/competitions/get_competition_results' },
-                  { text: 'Get Current Competition Dates', link: '/endpoints/competitions/get_current_competition_dates' },
-                ]
-              },
-              {
-                text: 'Racers',
-                items: [
-                  { text: 'Get Racer', link: '/endpoints/racers/get_racer' },
-                  { text: 'Get Racer Award Counts', link: '/endpoints/racers/get_racer_award_counts' },
-                  { text: 'Get Racer Race Result', link: '/endpoints/racers/get_racer_race_result' },
-                  { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
-                  { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },
-                ]
-              },
-              {
-                text: 'Races',
-                items: [
-                  { text: 'Get Latest Race Results', link: '/endpoints/races/get_race_results' },
-                  { text: 'Get Race Results For Race', link: '/endpoints/races/get_race_race_results' },
-                ]
-              },
-              {
-                text: 'Texts',
-                items: [
-                  { text: 'Get Text', link: '/endpoints/texts/get_text' },
-                  { text: 'Get Race Results For Text', link: '/endpoints/texts/get_text_race_results' },
-                  // { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
-                ]
-              }
+              { text: 'Get Racer', link: '/endpoints/racers/get_racer' },
+              { text: 'Get Racer Award Counts', link: '/endpoints/racers/get_racer_award_counts' },
+              { text: 'Get Racer Race Result', link: '/endpoints/racers/get_racer_race_result' },
+              { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
+              { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },
+            ]
+          },
+          {
+            text: 'Races',
+            items: [
+              { text: 'Get Latest Race Results', link: '/endpoints/races/get_race_results' },
+              { text: 'Get Race Results For Race', link: '/endpoints/races/get_race_race_results' },
+            ]
+          },
+          {
+            text: 'Texts',
+            items: [
+              { text: 'Get Text', link: '/endpoints/texts/get_text' },
+              { text: 'Get Race Results For Text', link: '/endpoints/texts/get_text_race_results' },
+              // { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
             ]
           }
         ]
