@@ -4,11 +4,11 @@ Get the RaceResults for the Racer with the given username
 
 NOTE: this endpoint will only return RaceResults from the last year
 
-### URL
+## URL
 
 `GET /v1/racers/<username>/races`
 
-### Parameters
+## Parameters
 
 | Parameter  | Type                | Description                                                                          |
 |------------|---------------------|--------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ NOTE: this endpoint will only return RaceResults from the last year
 | `before`   | DateTime (optional) | If provided, will only return RaceResults that occurred before the provided DateTime |
 | `keylog`   | boolean (optional)  | If true, will return the keylog as part of the RaceResult - defaults to false        |
 
-### Return Value
+## Return Value
 
 ```json
 {

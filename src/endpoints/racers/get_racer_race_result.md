@@ -2,11 +2,11 @@
 
 Get the RaceResult for the Race for the given username and race_number
 
-### URL
+## URL
 
 `GET /v1/racers/<username>/races/<race_number>`
 
-### Parameters
+## Parameters
 
 | Parameter     | Type               | Description                                                                   |
 |---------------|--------------------|-------------------------------------------------------------------------------|
@@ -15,7 +15,7 @@ Get the RaceResult for the Race for the given username and race_number
 | `universe`    | string             | The name of the universe to get the RaceResult for                            |
 | `keylog`      | boolean (optional) | If true, will return the keylog as part of the RaceResult - defaults to false |
 
-### Return Value
+## Return Value
 
 ```json
 {

@@ -2,17 +2,17 @@
 
 Get the Text for the given text_id
 
-### URL
+## URL
 
 `GET /v1/texts/<text_id>`
 
-### Parameters
+## Parameters
 
 | Parameter | Type   | Description               |
 |-----------|--------|---------------------------|
 | `text_id` | number | The ID of the Text to get |
 
-### Return Value
+## Return Value
 
 ```json
 {
