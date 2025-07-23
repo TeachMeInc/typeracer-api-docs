@@ -4,11 +4,11 @@ Get the RaceResults for the Text with the given text_id
 
 NOTE: this endpoint will only return RaceResults from the last year
 
-### URL
+## URL
 
 `GET /v1/texts/<text_id>/races`
 
-### Parameters
+## Parameters
 
 | Parameter  | Type                | Description                                                                          |
 |------------|---------------------|--------------------------------------------------------------------------------------|
@@ -18,7 +18,7 @@ NOTE: this endpoint will only return RaceResults from the last year
 | `after`    | DateTime (optional) | If provided, will only return RaceResults that occurred after the provided DateTime  |
 | `before`   | DateTime (optional) | If provided, will only return RaceResults that occurred before the provided DateTime |
 
-### Return Value
+## Return Value
 
 ```json
 {

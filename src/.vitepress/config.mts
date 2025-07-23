@@ -25,6 +25,7 @@ export default defineConfig({
             items: [
               { text: 'Racer', link: '/entities/Racer' },
               { text: 'RacerStats', link: '/entities/RacerStats' },
+              { text: 'PartialRacerStats', link: '/entities/PartialRacerStats' },
               { text: 'RaceResult', link: '/entities/RaceResult' },
               { text: 'Text', link: '/entities/Text' },
             ]
@@ -48,6 +49,7 @@ export default defineConfig({
               { text: 'Get Racer Race Result', link: '/endpoints/racers/get_racer_race_result' },
               { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
               { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },
+              { text: 'Get Racer Performance', link: '/endpoints/racers/get_racer_performance' },
             ]
           },
           {

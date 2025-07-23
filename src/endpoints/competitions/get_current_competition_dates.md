@@ -2,15 +2,15 @@
 
 Get the start and end date and times of the currently active competitions
 
-### URL
+## URL
 
 `GET /v1/competitions`
 
-### Parameters
+## Parameters
 
 None
 
-### Return Value
+## Return Value
 
 ```json
 {

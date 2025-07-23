@@ -2,11 +2,11 @@
 
 Get the top RaceResults for the given text_id
 
-### URL
+## URL
 
 `GET /v1/texts/<text_id>/top`
 
-### Parameters
+## Parameters
 
 | Parameter  | Type               | Description                                                                    |
 |------------|--------------------|--------------------------------------------------------------------------------|
@@ -14,7 +14,7 @@ Get the top RaceResults for the given text_id
 | `universe` | string (optional)  | The universe to get RaceResults for - will default to all universes if omitted |
 | `distinct` | boolean (optional) | If true, will only return one RaceResult per Racer - defaults to false         |
 
-### Return Value
+## Return Value
 
 ```json
 {

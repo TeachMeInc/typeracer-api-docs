@@ -2,17 +2,17 @@
 
 Get the Racer for the given username
 
-### URL
+## URL
 
 `GET /v1/racers/<username>`
 
-### Parameters
+## Parameters
 
 | Parameter  | Type   | Description                      |
 |------------|--------|----------------------------------|
 | `username` | string | The username of the Racer to get |
 
-### Return Value
+## Return Value
 
 ```json
 {

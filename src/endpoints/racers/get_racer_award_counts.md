@@ -2,18 +2,18 @@
 
 Get the competition award counts for the Racer with the given username
 
-### URL
+## URL
 
 `GET /v1/racers/<username>/awards`
 
-### Parameters
+## Parameters
 
 | Parameter  | Type              | Description                                                               |
 |------------|-------------------|---------------------------------------------------------------------------|
 | `username` | string            | The username of the Racer to get                                          |
 | `kind`     | string (optional) | The kind of competition to filter the counts for (day, week, month, year) |
 
-### Return Value
+## Return Value
 
 ```json
 {

@@ -16,9 +16,9 @@ Every request to the TypeRacer API requires an `Authorization` header in the fol
 
 `Authorization: Basic <credentials>`
 
-where `<credentials>` is the Base64 encoding of your username and API Key joined by a single colon (`:`).
+Where `<credentials>` is the Base64 encoding of your username and API Key joined by a single colon (`:`).
 
-**Example:** Assuming your username is "typeracer" and your API Key is "foobar", your `Authorization` header should look like the following:
+**Example:** Assuming your username is `"typeracer"` and your API Key is `"foobar"`, your `Authorization` header should look like the following:
 
 `"Basic" + base64.encode("typeracer:foobar")`
 
