@@ -22,4 +22,4 @@ Where `<credentials>` is the Base64 encoding of your username and API Key joined
 
 `"Basic" + base64.encode("typeracer:foobar")`
 
-`Basic dHlwZXJhY2VyOmZvb2Jhcgo=`
+`Basic dHlwZXJhY2VyOmZvb2Jhcgo==`

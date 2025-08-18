@@ -28,6 +28,7 @@ export default defineConfig({
               { text: 'PartialRacerStats', link: '/entities/PartialRacerStats' },
               { text: 'RaceResult', link: '/entities/RaceResult' },
               { text: 'Text', link: '/entities/Text' },
+              { text: 'CompetitionResult', link: '/entities/CompetitionResult' },
             ]
           }
         ]
@@ -39,6 +40,7 @@ export default defineConfig({
             text: 'Competitions',
             items: [
               { text: 'Get Current Competition Dates', link: '/endpoints/competitions/get_current_competition_dates' },
+              { text: 'Get Competition Results', link: '/endpoints/competitions/get_competition_results' },
             ]
           },
           {
@@ -46,6 +48,7 @@ export default defineConfig({
             items: [
               { text: 'Get Racer', link: '/endpoints/racers/get_racer' },
               { text: 'Get Racer Award Counts', link: '/endpoints/racers/get_racer_award_counts' },
+              { text: 'Get Racer Award History', link: '/endpoints/racers/get_racer_award_history' },
               { text: 'Get Racer Race Result', link: '/endpoints/racers/get_racer_race_result' },
               { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
               { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },
