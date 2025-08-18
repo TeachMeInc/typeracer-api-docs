@@ -53,6 +53,7 @@ export default defineConfig({
               { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
               { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },
               { text: 'Get Racer Performance', link: '/endpoints/racers/get_racer_performance' },
+              { text: 'Get Racer Historical Race Results', link: '/endpoints/racers/get_racer_historical_race_results' },
             ]
           },
           {
