@@ -69,7 +69,7 @@ export default defineConfig({
             items: [
               { text: 'Get Text', link: '/endpoints/texts/get_text' },
               { text: 'Get Race Results For Text', link: '/endpoints/texts/get_text_race_results' },
-              // { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
+              { text: 'Get Top Race Results For Text', link: '/endpoints/texts/get_text_top_results' },
             ]
           }
         ]
