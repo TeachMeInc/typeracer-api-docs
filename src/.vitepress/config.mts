@@ -12,6 +12,7 @@ export default defineConfig({
           { text: 'Getting Started', link: '/getting_started' },
           { text: 'Authentication', link: '/authentication' },
           { text: 'Historical Data', link: '/historical_data' },
+          { text: 'Keylogs', link: '/keylogs' },
           { text: 'Errors', link: '/errors' },
           {
             text: 'Types',
