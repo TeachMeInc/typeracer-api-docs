@@ -17,6 +17,7 @@ NOTE: this endpoint will only return RaceResults from the last year
 | `n`        | number (optional)   | The number of RaceResults to return - must be between 1 and 100 (default: 10)        |
 | `after`    | DateTime (optional) | If provided, will only return RaceResults that occurred after the provided DateTime  |
 | `before`   | DateTime (optional) | If provided, will only return RaceResults that occurred before the provided DateTime |
+| `keylog`   | boolean (optional)  | If true, will return the keylog as part of the RaceResult - defaults to false        |
 
 ## Return Value
 
