@@ -2,6 +2,8 @@
 
 The TypeRacer API exposes keylogs for races in the `RaceResult` entity, representing the keys that were pressed during a race and the timestamps of when they were pressed.
 
+NOTE: keylogs are only available for subscribers on the Ultimate tier.
+
 ## Overview
 
 The TypeRacer keylog is split into multiple parts, using the following format:
