@@ -1,7 +1,14 @@
+<script setup lang="ts">
+</script>
 <template>
   <div class="Home">
     <section class="Section --brand --pullBottom">
       <div>
+        <aside>
+          <figure>
+            <img src="/TypeeCar.svg" alt="Hero Image" style="margin:0 auto 2em auto;" />
+          </figure>
+        </aside>
         <div>
           <h1>
             Level up with the TypeRacer API
@@ -18,11 +25,6 @@
             </a>
           </footer>
         </div>
-        <aside>
-          <figure>
-            <img src="/TypeeCar.svg" alt="Hero Image" style="margin-bottom:2em;" />
-          </figure>
-        </aside>
       </div>
     </section>
 
