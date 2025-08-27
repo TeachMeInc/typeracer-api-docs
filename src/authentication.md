@@ -4,9 +4,7 @@ The TypeRacer API uses [Basic Access Authentication](https://en.wikipedia.org/wi
 
 ### Generating an API Key
 
-**Please note: The TypeRacer API is currently in a closed testing phase.** To generate an API Key, you must first be an **approved API tester**.
-
-If you are an approved tester, you can navigate to the "Manage Your API Keys" page from the bottom of the "Edit Profile" page (or follow [this link](https://data.typeracer.com/pit/api_keys)).
+Navigate to the "Manage Your API Keys" page from the bottom of the "Edit Profile" page (or follow [this link](https://data.typeracer.com/pit/api_keys)).
 
 From there, you can create and manage your API Keys.
 

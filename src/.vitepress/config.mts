@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  title: "TypeRacer API (BETA)",
+  title: "TypeRacer API",
   description: "TypeRacer API Documentation",
   outDir: "../docs",
   themeConfig: {
+    logo: '/logo.svg',
+    outline: [2, 3],
     sidebar: [
       {
         text: 'Documentation',
@@ -77,8 +80,21 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Shockwave',
+      message: '<img src="/shockwave.svg" alt="Shockwave Logo" style="margin:0 auto 1em auto;"/>',
       copyright: 'Copyright 2025 Shockwave, Inc.'
+    }
+  },
+
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPHome\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./components/Home.vue', import.meta.url)
+          )
+        }
+      ]
     }
   }
 })

@@ -8,4 +8,4 @@ TypeRacer archives all `RaceResult` entities older than two years from the live 
 
 ## Access
 
-Historical race data is not directly accessible via the live site or current API endpoints. A data export feature will be available in the future to access your complete archived race history.
+Historical race data is accessible via the API for Ultimate subscribers.
