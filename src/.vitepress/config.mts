@@ -5,6 +5,9 @@ export default defineConfig({
   title: "TypeRacer API",
   description: "TypeRacer API Documentation",
   outDir: "../docs",
+  head: [
+    ['link', { rel: "icon", href: "/favicon.ico"}],
+  ],
   themeConfig: {
     logo: '/logo.svg',
     outline: [2, 3],
