@@ -18,4 +18,4 @@ An entity representing the results of a Race by a Racer
 | `rn`   | number         | The Race number for the Racer                     |
 | `nr`   | number         | The number of Racers in the Race                  |
 | `r`    | number         | The rank of the Racer in the Race                 |
-| `kl`   | string \| null | The keylog of the RaceResult                      |
+| `kl`   | string \| null | (Ultimate only) The keylog of the RaceResult      |

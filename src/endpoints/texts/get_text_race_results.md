@@ -10,13 +10,14 @@ NOTE: this endpoint will only return RaceResults from the last year
 
 ## Parameters
 
-| Parameter  | Type                | Description                                                                          |
-|------------|---------------------|--------------------------------------------------------------------------------------|
-| `text_id`  | number              | The ID of the Text to get                                                            |
-| `universe` | string (optional)   | The Universe to get RaceResults for - will default to all Universes if omitted       |
-| `n`        | number (optional)   | The number of RaceResults to return - must be between 1 and 100 (default: 10)        |
-| `after`    | DateTime (optional) | If provided, will only return RaceResults that occurred after the provided DateTime  |
-| `before`   | DateTime (optional) | If provided, will only return RaceResults that occurred before the provided DateTime |
+| Parameter  | Type                | Description                                                                                   |
+|------------|---------------------|-----------------------------------------------------------------------------------------------|
+| `text_id`  | number              | The ID of the Text to get                                                                     |
+| `universe` | string (optional)   | The Universe to get RaceResults for - will default to all Universes if omitted                |
+| `n`        | number (optional)   | The number of RaceResults to return - must be between 1 and 100 (default: 10)                 |
+| `after`    | DateTime (optional) | If provided, will only return RaceResults that occurred after the provided DateTime           |
+| `before`   | DateTime (optional) | If provided, will only return RaceResults that occurred before the provided DateTime          |
+| `keylog`   | boolean (optional)  | (Ultimate only) If true, will return the keylog as part of the RaceResult - defaults to false |
 
 ## Return Value
 

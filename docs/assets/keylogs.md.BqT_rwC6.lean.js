@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as r,K as o}from"./chunks/framework.D8Jci5pj.js";const u=JSON.parse('{"title":"Keylogs","description":"","frontmatter":{},"headers":[],"relativePath":"keylogs.md","filePath":"keylogs.md"}'),s={name:"keylogs.md"};function i(d,e,c,n,h,l){return r(),a("div",null,e[0]||(e[0]=[o("",28)]))}const g=t(s,[["render",i]]);export{u as __pageData,g as default};

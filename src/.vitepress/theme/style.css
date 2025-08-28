@@ -1,0 +1,96 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+ :root {
+  --vp-c-brand: #195AAB;
+  --vp-c-brand-light: #3377CC;
+  --vp-c-brand-lighter: #3377CC;
+  --vp-c-brand-lightest: #3377CC;
+  --vp-c-brand-dark: #21518E;
+  --vp-c-brand-darker: #21518E;
+  --vp-c-brand-black: #171717;
+  --vp-c-brand-black-lighter: #393939;
+  --vp-c-brand-dimm: rgba(100, 100, 100, 0.1);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+.dark {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+/**
+ * Component: Search
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-local-search-highlight-bg: var(--vp-c-brand-light);
+}
+
+/**
+ * Component: "Submit Game" NavBarMenu Link
+ * -------------------------------------------------------------------------- */
+ 
+.VPNavBarMenu .VPLink.vp-external-link-icon {
+  height: 38px;
+  align-self: center;
+
+  font-weight: 600;
+  transition: color .25s, background-color .25s;
+  color: var(--vp-button-brand-text);
+  border-color: var(--vp-button-brand-border);
+  background-color: var(--vp-button-brand-bg);
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.VPNavBarMenu .VPLink.vp-external-link-icon:hover {
+  background-color: var(--vp-c-brand-light);
+}
+
+/**
+ * Component: Footer
+ * -------------------------------------------------------------------------- */
+ 
+.VPFooter {
+  background-color: var(--vp-c-brand-dimm) !important;
+}
+
+.dark .VPFooter {
+  background-color: var(--vp-c-brand-black) !important;
+}

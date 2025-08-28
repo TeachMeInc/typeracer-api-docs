@@ -1,6 +1,6 @@
 # Get Top Race Results For Text
 
-Get the top RaceResults for the given text_id
+Get the all-time top RaceResults for the given text_id from the play universe
 
 ## URL
 
@@ -11,8 +11,6 @@ Get the top RaceResults for the given text_id
 | Parameter  | Type               | Description                                                                    |
 |------------|--------------------|--------------------------------------------------------------------------------|
 | `text_id`  | number             | The ID of the Text to get                                                      |
-| `universe` | string (optional)  | The universe to get RaceResults for - will default to all universes if omitted |
-| `distinct` | boolean (optional) | If true, will only return one RaceResult per Racer - defaults to false         |
 
 ## Return Value
 

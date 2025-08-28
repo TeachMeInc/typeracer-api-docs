@@ -11,7 +11,7 @@ Get the RacerStats for a given competition date and period
 | Parameter | Type   | Description                                                         |
 |-----------|--------|---------------------------------------------------------------------|
 | `kind`    | string | The kind of competition to get results for (day, week, month, year) |
-| `date`    | Date   | The date of the competition                                         |
+| `date`    | Date   | The date of the competition to get results for                      |
 
 ## Return Value
 
@@ -19,10 +19,6 @@ Get the RacerStats for a given competition date and period
 {
   "success": boolean,
   "error": Error | null,
-  "data": {
-    "start": DateTime,
-    "end": DateTime,
-    "results": RacerStats[]
-  } | null
+  "data": CompetitionResult[] | null
 }
 ```

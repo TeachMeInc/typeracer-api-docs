@@ -8,10 +8,10 @@ Get the latest RaceResults sorted by timestamp
 
 ## Parameters
 
-| Parameter | Type               | Description                                                                   |
-|-----------|--------------------|-------------------------------------------------------------------------------|
-| `n`       | number (optional)  | The number of RaceResults to return - must be between 1 and 100 (default: 10) |
-| `keylog`  | boolean (optional) | If true, will return the keylog as part of the RaceResult - defaults to false |
+| Parameter | Type               | Description                                                                                   |
+|-----------|--------------------|-----------------------------------------------------------------------------------------------|
+| `n`       | number (optional)  | The number of RaceResults to return - must be between 1 and 100 (default: 10)                 |
+| `keylog`  | boolean (optional) | (Ultimate only) If true, will return the keylog as part of the RaceResult - defaults to false |
 
 ## Return Value
 
