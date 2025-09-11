@@ -46,17 +46,18 @@ with "individual edits" broken down further into the following format:
 
 `{timestamp},{word index}{edit type}{character}`
 
-The two values for "edit type" are `+` for an addition and `-` for a deletion.
+The three possible values for "edit type" are `+` for an addition, `-` for a deletion, and `$` for a substitution.
 
-For example, the string `0,6,10,0+T,20,1+r,15,1-r,10,1+h,30,2+e,40,3+ ,` represents the following:
+For example, the string `0,7,10,0+T,20,1+r,15,1-r,10,1+h,30,2+q,20,2$e,40,3+ ,` represents the following:
 
 - The word starts at index `0` (i.e. it is the first word in the text)
-- there were `6` edits made typing the word
+- there were `7` edits made typing the word
   - after 10 ms, the character `T` was added at index `0` in the word
   - after 20 ms, the character `r` was added at index `1` in the word
   - after 15 ms, the character `r` was removed from index `1` in the word
   - after 10 ms, the character `h` was added at index `1` in the word
-  - after 30 ms, the character `e` was added at index `2` in the word
+  - after 30 ms, the character `q` was added at index `2` in the word
+  - after 20 ms, the character `q` was replaced with the character `e` at index `2` in the word
   - after 40 ms, the character ` ` (space) was added at index `3` in the word
 
 NOTE: because the values in the edits string are comma-separated we do not need a special backspace character to separate numbers from the previous timestamp.
