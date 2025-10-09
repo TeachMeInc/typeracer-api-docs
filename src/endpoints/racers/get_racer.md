@@ -8,9 +8,10 @@ Get the Racer for the given username
 
 ## Parameters
 
-| Parameter  | Type   | Description                      |
-|------------|--------|----------------------------------|
-| `username` | string | The username of the Racer to get |
+| Parameter  | Type              | Description                                                              |
+|------------|-------------------|--------------------------------------------------------------------------|
+| `username` | string            | The username of the Racer to get                                         |
+| `universe` | string (optional) | The Universe to get RacerStats for - will default to `"play"` if omitted |
 
 ## Return Value
 
