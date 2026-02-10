@@ -35,7 +35,9 @@ export default defineConfig({
               { text: 'PartialRacerStats', link: '/entities/PartialRacerStats' },
               { text: 'RaceResult', link: '/entities/RaceResult' },
               { text: 'Text', link: '/entities/Text' },
-              { text: 'CompetitionResult', link: '/entities/CompetitionResult' },
+              { text: 'Competition', link: '/entities/Competition' },
+              { text: 'CompetitionResultV1', link: '/entities/CompetitionResultV1' },
+              { text: 'CompetitionResultV2', link: '/entities/CompetitionResultV2' },
             ]
           }
         ]
@@ -44,10 +46,17 @@ export default defineConfig({
         text: 'Endpoints',
         items: [
           {
-            text: 'Competitions',
+            text: 'Competitions V1 (deprecated)',
             items: [
-              { text: 'Get Current Competition Dates', link: '/endpoints/competitions/get_current_competition_dates' },
-              { text: 'Get Competition Results', link: '/endpoints/competitions/get_competition_results' },
+              { text: 'Get Current Competition Dates', link: '/endpoints/competitions_v1/get_current_competition_dates' },
+              { text: 'Get Competition Results', link: '/endpoints/competitions_v1/get_competition_results' },
+            ]
+          },
+          {
+            text: 'Competitions V2',
+            items: [
+              { text: 'Get Competitions', link: '/endpoints/competitions_v2/get_competitions' },
+              { text: 'Get Competition Results', link: '/endpoints/competitions_v2/get_competition_results' },
             ]
           },
           {
