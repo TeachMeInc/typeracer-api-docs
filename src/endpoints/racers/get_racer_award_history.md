@@ -1,6 +1,10 @@
-# Get Racer Award History
+# Get Racer Award History :warning:
 
 Get the CompetitionResults for the Racer with the given username
+
+::: danger Deprecated
+This endpoint is deprecated. Please use the new [badges](/endpoints/racers/get_racer_badges) endpoint instead.
+:::
 
 ## URL
 

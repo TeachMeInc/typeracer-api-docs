@@ -30,14 +30,15 @@ export default defineConfig({
           {
             text: 'Entities',
             items: [
-              { text: 'Racer', link: '/entities/Racer' },
-              { text: 'RacerStats', link: '/entities/RacerStats' },
-              { text: 'PartialRacerStats', link: '/entities/PartialRacerStats' },
-              { text: 'RaceResult', link: '/entities/RaceResult' },
-              { text: 'Text', link: '/entities/Text' },
+              { text: 'Badge', link: '/entities/Badge' },
               { text: 'Competition', link: '/entities/Competition' },
               { text: 'CompetitionResultV1', link: '/entities/CompetitionResultV1' },
               { text: 'CompetitionResultV2', link: '/entities/CompetitionResultV2' },
+              { text: 'PartialRacerStats', link: '/entities/PartialRacerStats' },
+              { text: 'Racer', link: '/entities/Racer' },
+              { text: 'RaceResult', link: '/entities/RaceResult' },
+              { text: 'RacerStats', link: '/entities/RacerStats' },
+              { text: 'Text', link: '/entities/Text' },
             ]
           }
         ]
@@ -46,10 +47,10 @@ export default defineConfig({
         text: 'Endpoints',
         items: [
           {
-            text: 'Competitions V1 (deprecated)',
+            text: 'Competitions V1 ⚠️',
             items: [
-              { text: 'Get Current Competition Dates', link: '/endpoints/competitions_v1/get_current_competition_dates' },
-              { text: 'Get Competition Results', link: '/endpoints/competitions_v1/get_competition_results' },
+              { text: 'Get Current Competition Dates ⚠️', link: '/endpoints/competitions_v1/get_current_competition_dates' },
+              { text: 'Get Competition Results ⚠️', link: '/endpoints/competitions_v1/get_competition_results' },
             ]
           },
           {
@@ -63,8 +64,9 @@ export default defineConfig({
             text: 'Racers',
             items: [
               { text: 'Get Racer', link: '/endpoints/racers/get_racer' },
-              { text: 'Get Racer Award Counts', link: '/endpoints/racers/get_racer_award_counts' },
-              { text: 'Get Racer Award History', link: '/endpoints/racers/get_racer_award_history' },
+              { text: 'Get Racer Badges', link: '/endpoints/racers/get_racer_badges' },
+              { text: 'Get Racer Award Counts ⚠️', link: '/endpoints/racers/get_racer_award_counts' },
+              { text: 'Get Racer Award History ⚠️', link: '/endpoints/racers/get_racer_award_history' },
               { text: 'Get Racer Race Result', link: '/endpoints/racers/get_racer_race_result' },
               { text: 'Get Racer Race Results', link: '/endpoints/racers/get_racer_race_results' },
               { text: 'Get Racer Stats', link: '/endpoints/racers/get_racer_stats' },

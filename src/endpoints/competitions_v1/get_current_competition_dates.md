@@ -1,4 +1,4 @@
-# Get Current Competition Dates
+# Get Current Competition Dates :warning:
 
 Get the start and end date and times of the currently active competitions
 

@@ -1,6 +1,10 @@
-# Get Racer Award Counts
+# Get Racer Award Counts :warning:
 
 Get the competition award counts for the Racer with the given username
+
+::: danger Deprecated
+This endpoint is deprecated. Please use the new [badges](/endpoints/racers/get_racer_badges) endpoint instead.
+:::
 
 ## URL
 
