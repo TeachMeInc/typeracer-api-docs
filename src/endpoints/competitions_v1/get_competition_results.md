@@ -1,6 +1,10 @@
-# Get Competition Results
+# Get Competition Results :warning:
 
 Get the RacerStats for a given competition date and period
+
+::: danger Deprecated
+This endpoint is deprecated. Please use the [v2 version](/endpoints/competitions_v2/get_competition_results) instead.
+:::
 
 ## URL
 
@@ -19,6 +23,6 @@ Get the RacerStats for a given competition date and period
 {
   "success": boolean,
   "error": Error | null,
-  "data": CompetitionResult[] | null
+  "data": CompetitionResultV1[] | null
 }
 ```

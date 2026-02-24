@@ -1,6 +1,10 @@
-# Get Current Competition Dates
+# Get Current Competition Dates :warning:
 
 Get the start and end date and times of the currently active competitions
+
+::: danger Deprecated
+This endpoint is deprecated. Please use the [v2 version](/endpoints/competitions_v2/get_competitions) instead.
+:::
 
 ## URL
 
